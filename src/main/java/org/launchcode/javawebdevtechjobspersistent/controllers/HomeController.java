@@ -66,7 +66,7 @@ if (errors.hasErrors()) {
         newJob.setSkills(skill);
         newJob.setEmployer(employer);
         jobRepository.save(newJob);
-return "view";
+return "redirect";
 
     }
 
